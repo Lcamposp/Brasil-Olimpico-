@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Brasil Olímpico</title>
+    <link rel="icon" type="image/x-icon" href="imagens/coblogo.svg">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href = "style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,756;1,756&family=Oswald:wght@200..700&display=swap');
+    </style>
+</head>
+  
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo"><a href="index.html"><img src="imagens/coblogo.svg" height="80"></a></div>
+            <ul class="linklist">
+                <li><a id="inicio" href="index.html">Início</a></li>
+                <li><a id="historico" href="historico.html">Historico</a></li>
+                <li><a id="equipes" href="equipes.html">Equipes</a></li>
+                <li><a id="individual" href="individual.html">Individual</a></li>
+                <li><a id="contato" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="titulo-contatos">
+            <h1>Dúvidas e Sugestões<h1>
+        </div>
+        <form action="mailto:leonardo.penkaitis@uvvnet.com.br" method="post">
+            <div class="input-container" id="container-name-lastname">
+                <label>Nome:</label>
+                <input type="text" value="" name="name" class="input-nome" id="nome" size="30" maxlength="30" required>
+                <label>Sobrenome:</label>
+                <input type="text" value="" name="sobrenome" class="input-nome" id="sobrenome" size="30" maxlength="30" required>
+            </div>
+            <br><br>
+            <div class="input-container">
+                <label>E-mail:</label>
+                <input type="email" name="email" class="input-email" id="email" size="73" maxlength="80" required>
+            </div>
+            
+            <br><br><br><br>
+            <div class="input-container" id="area-comentario">
+                <label>Escreva sua duvida ou sugestão abaixo</label>
+                <div>
+                    
+                    <textarea id="comentario" name="w3review" rows="12" cols="50"></textarea>
+                    <br><br><br>
+                    <input type="submit" class="button-submit" value="Enviar">
+                </div>
+            </div>
+           
+        </form>
+    </main>
+    
+    <br><br>
+    <hr>
+    <br>
+
+    <footer class="footer">
+        <div>
+            <p>Site Feito Para a AOP2 de programação web front-end </p>
+            <p>Autor:Leonardo Campos Penkaitis</p>
+        </div>
+    </footer>
+
+</body>

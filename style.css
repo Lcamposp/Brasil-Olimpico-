@@ -1,0 +1,198 @@
+*{
+    font-family: "Montserrat", serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: 100px;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 0 260px; 
+    background-color: blue;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    
+}
+
+.logo{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    font-size: 42px;
+}
+
+.logo a{
+    color: green;
+}
+
+.linklist{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    
+}
+.linklist a{
+    color: white;
+}
+
+.linklist a:hover{
+    color:yellow;
+    
+}
+/*até aqui é o style da header*/
+
+
+
+
+main{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.main-image-container{
+    padding-top: 100px;
+    text-align: center;
+    }
+#main-image{
+    border-radius: 100%;
+}
+.main-text{
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.main-text p{
+    padding-top: 50px;
+}
+    /* primeira parte de texo da pagina inicial */
+
+
+
+
+
+.pagina-home-link{
+    display: flex;
+}
+
+
+.text-home-resume{ 
+    float:right;
+    height: 400px;
+    padding-left: 50px;      
+    font-size: 20px;
+    
+}
+
+.title-link{
+    text-decoration:none;
+    color: black;
+    width: 20px;
+}
+
+.title-link:hover{
+    text-decoration: underline;
+}
+
+
+.home-img-link{
+    height: 400px; 
+    width : 400px;
+    object-fit: cover;
+    border-radius: 5%;
+    transition: 0.2s;
+}
+.home-img-link:hover{
+    transform:scale(1.1)
+} 
+/* aqui acaba a pagina inicial*/         
+
+
+
+
+
+.footer{
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    
+}
+/*aqui estiliza o footer*/
+
+
+
+
+
+
+
+#materia1-historico{
+    padding-top: 100px;
+}
+
+#materia1-equipes{
+    padding-top: 100px;
+}
+
+.materias-container{
+    display: flex;
+}
+
+.text-materia{
+    font-size: 20px;
+    padding-left: 35px;
+    flex-wrap: wrap;
+}
+
+.img-materia{
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+#materia1-individual{
+    padding-top: 100px
+}
+/* até aqui estiliza os conteudos das paginas de conteudo*/
+
+
+
+.titulo-contatos{
+    
+    margin: auto;
+    width: 50%;
+}
+.titulo-contatos h1{
+    margin-top: 150px;
+    text-align: center;
+}
+.input-container{
+    margin: auto;
+    width: 50%;
+}
+
+#area-comentario{
+    text-align: center;
+}
+/*até aqui style dos inputs de contato*/
+
+
+
+
+
+
+.button-submit{
+    color: white;
+    background: blue;
+    border-radius: 5%;
+    padding: 15px 32px;
+    border: none;
+    font-size: 16px;
+    transition: 0.2s;
+}
+.button-submit:hover{
+    transform:scale(1.1);
+}
+/*até aqui style dos botoes submit*/
