@@ -170,7 +170,12 @@ main{
 }
 .input-container{
     margin: auto;
-    width: 50%;
+    text-align: center;
+}
+
+
+#container-name-lastname{
+    width: 100%;
 }
 
 #area-comentario{
